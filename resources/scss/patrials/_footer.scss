@@ -24,7 +24,7 @@
         }
     }
     .menu-item:last-child{
-        width: 100px\1;
+        width: 100px;
     }
 }
 
@@ -77,9 +77,10 @@
     background-color: $black;
     padding: 40px 0;
     position: relative;
-    top: -10    0px;
+    top: -10 0px;
 
     .footer-social {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -106,6 +107,7 @@
                 text-transform: uppercase;
                 font-size: 30px;
                 padding-right: 20px;
+                margin-bottom: 0;
             }
         }
     }

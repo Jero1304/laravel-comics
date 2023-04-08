@@ -77,18 +77,18 @@
 
     <div class="social">
         <div class="container">
-            <div class="row footer-social">
+            <div class="footer-social">
                 <a href="#" class="sign-btn">
                     Sign-up Now!
                 </a>
 
                 <div class="social-contact">
                     <h1>follow us</h1>
-                    {{-- <img src="../../public/img/footer-facebook.png" alt="">
-                    <img src="../../public/img/footer-twitter.png" alt="">
-                    <img src="../../public/img/footer-youtube.png" alt="">
-                    <img src="../../public/img/footer-pinterest.png" alt="">
-                    <img src="../../public/img/footer-periscope.png" alt=""> --}}
+                    <img src="/img/footer-facebook.png" alt="">
+                    <img src="/img/footer-twitter.png" alt="">
+                    <img src="/img/footer-youtube.png" alt="">
+                    <img src="/img/footer-pinterest.png" alt="">
+                    <img src="/img/footer-periscope.png" alt="">
                 </div>
             </div>
         </div>
