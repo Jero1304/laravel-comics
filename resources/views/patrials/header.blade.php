@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div class="header-bar">
-            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+            <img src="/img/dc-logo.png" alt="">
             <nav>
                 <ul class="menu">
                     <li class="menu-item">charter</li>
@@ -12,7 +12,6 @@
                     <li class="menu-item">videos</li>
                     <li class="menu-item">fans</li>
                     <li class="menu-item">news</li>
-                    <li class="menu-item">shop</li>
                     <li class="menu-item nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -28,11 +27,15 @@
             </nav>
             <form class="header-search" role="search">
                 <input class="search form-control" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn" type="submit">O</button>
+                <button class="btn p-0" type="submit">O</button>
             </form>
 
         </div>
     </div>
+
+    <div class="jumbotron">
+    </div>
+    
 </header>
 
 {{-- <script>
